@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <parameter name="Browser" value="chrome"/>
+  <parameter name="URL" value="http://newtours.demoaut.com/mercuryregister.php"/>
+  <test name="test on Firefox(failed)">
+    <parameter name="Browser" value="Firefox"/>
+    <parameter name="URL" value="http://newtours.demoaut.com/mercuryregister.php"/>
+    <classes>
+      <class name="org.prasanna.test.TestRegister">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="Singuptest"/>
+          <include name="closebrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- org.prasanna.test.TestRegister -->
+    </classes>
+  </test> <!-- test on Firefox(failed) -->
+  <test name="test on chrome(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <parameter name="URL" value="http://newtours.demoaut.com/mercuryregister.php"/>
+    <classes>
+      <class name="org.prasanna.test.TestRegister">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="Singuptest"/>
+          <include name="closebrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- org.prasanna.test.TestRegister -->
+    </classes>
+  </test> <!-- test on chrome(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
