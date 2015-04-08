@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.prasanna.test.TestRegister">
+      <class name="org.prasanna.test.Registertestfact">
         <methods>
-          <include name="LaunchBrowser"/>
-          <include name="Singuptest"/>
-          <include name="closebrowser"/>
+          <include name="testwithcsvcreated"/>
         </methods>
-      </class> <!-- org.prasanna.test.TestRegister -->
+      </class> <!-- org.prasanna.test.Registertestfact -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

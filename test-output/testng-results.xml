@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20111" started-at="2015-04-06T18:36:16Z" finished-at="2015-04-06T18:36:36Z">
+  <suite name="Default suite" duration-ms="118128" started-at="2015-04-08T18:15:19Z" finished-at="2015-04-08T18:17:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20111" started-at="2015-04-06T18:36:16Z" finished-at="2015-04-06T18:36:36Z">
-      <class name="org.prasanna.test.TestRegister">
-        <test-method status="PASS" signature="LaunchBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.prasanna.test.TestRegister@11052a99]" name="LaunchBrowser" is-config="true" duration-ms="15809" started-at="2015-04-07T00:06:16Z" finished-at="2015-04-07T00:06:32Z">
+    <test name="Default test" duration-ms="118128" started-at="2015-04-08T18:15:19Z" finished-at="2015-04-08T18:17:17Z">
+      <class name="org.prasanna.test.Registertestfact">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="LaunchBrowser" is-config="true" duration-ms="17724" started-at="2015-04-08T23:45:19Z" finished-at="2015-04-08T23:45:37Z">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,219 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="Singuptest()[pri:0, instance:org.prasanna.test.TestRegister@11052a99]" name="Singuptest" duration-ms="4174" started-at="2015-04-07T00:06:32Z" finished-at="2015-04-07T00:06:36Z">
+        <test-method status="PASS" signature="testwithcsvcreated(org.prasanna.data.Regdata)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="testwithcsvcreated" duration-ms="4128" started-at="2015-04-08T23:45:37Z" data-provider="readcsv" finished-at="2015-04-08T23:45:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.prasanna.data.Regdata@64ae8c15]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Singuptest -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:org.prasanna.test.TestRegister@11052a99]" name="closebrowser" is-config="true" duration-ms="96" started-at="2015-04-07T00:06:36Z" finished-at="2015-04-07T00:06:36Z">
+        </test-method> <!-- testwithcsvcreated -->
+        <test-method status="PASS" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="closebrowser" is-config="true" duration-ms="99" started-at="2015-04-08T23:45:41Z" finished-at="2015-04-08T23:45:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwithcsvcreated status=SUCCESS method=Registertestfact.testwithcsvcreated(org.prasanna.data.Regdata)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-      </class> <!-- org.prasanna.test.TestRegister -->
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="LaunchBrowser" is-config="true" duration-ms="14078" started-at="2015-04-08T23:45:41Z" finished-at="2015-04-08T23:45:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/mercuryregister.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="testwithcsvcreated(org.prasanna.data.Regdata)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="testwithcsvcreated" duration-ms="3887" started-at="2015-04-08T23:45:55Z" data-provider="readcsv" finished-at="2015-04-08T23:45:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.prasanna.data.Regdata@1c81c2fa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwithcsvcreated -->
+        <test-method status="PASS" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="closebrowser" is-config="true" duration-ms="85" started-at="2015-04-08T23:45:59Z" finished-at="2015-04-08T23:45:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwithcsvcreated status=SUCCESS method=Registertestfact.testwithcsvcreated(org.prasanna.data.Regdata)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="LaunchBrowser" is-config="true" duration-ms="14749" started-at="2015-04-08T23:45:59Z" finished-at="2015-04-08T23:46:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/mercuryregister.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="testwithcsvcreated(org.prasanna.data.Regdata)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="testwithcsvcreated" duration-ms="4154" started-at="2015-04-08T23:46:14Z" data-provider="readcsv" finished-at="2015-04-08T23:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.prasanna.data.Regdata@6051e653]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwithcsvcreated -->
+        <test-method status="PASS" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="closebrowser" is-config="true" duration-ms="104" started-at="2015-04-08T23:46:18Z" finished-at="2015-04-08T23:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwithcsvcreated status=SUCCESS method=Registertestfact.testwithcsvcreated(org.prasanna.data.Regdata)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="LaunchBrowser" is-config="true" duration-ms="13933" started-at="2015-04-08T23:46:18Z" finished-at="2015-04-08T23:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/mercuryregister.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="testwithcsvcreated(org.prasanna.data.Regdata)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="testwithcsvcreated" duration-ms="3844" started-at="2015-04-08T23:46:32Z" data-provider="readcsv" finished-at="2015-04-08T23:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.prasanna.data.Regdata@7389a769]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwithcsvcreated -->
+        <test-method status="PASS" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="closebrowser" is-config="true" duration-ms="92" started-at="2015-04-08T23:46:36Z" finished-at="2015-04-08T23:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwithcsvcreated status=SUCCESS method=Registertestfact.testwithcsvcreated(org.prasanna.data.Regdata)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="LaunchBrowser" is-config="true" duration-ms="17017" started-at="2015-04-08T23:46:36Z" finished-at="2015-04-08T23:46:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/mercuryregister.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="testwithcsvcreated(org.prasanna.data.Regdata)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="testwithcsvcreated" duration-ms="4161" started-at="2015-04-08T23:46:53Z" data-provider="readcsv" finished-at="2015-04-08T23:46:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.prasanna.data.Regdata@44d88759]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwithcsvcreated -->
+        <test-method status="PASS" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="closebrowser" is-config="true" duration-ms="72" started-at="2015-04-08T23:46:57Z" finished-at="2015-04-08T23:46:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwithcsvcreated status=SUCCESS method=Registertestfact.testwithcsvcreated(org.prasanna.data.Regdata)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="LaunchBrowser" is-config="true" duration-ms="15250" started-at="2015-04-08T23:46:57Z" finished-at="2015-04-08T23:47:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/mercuryregister.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="testwithcsvcreated(org.prasanna.data.Regdata)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="testwithcsvcreated" duration-ms="4580" started-at="2015-04-08T23:47:13Z" data-provider="readcsv" finished-at="2015-04-08T23:47:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.prasanna.data.Regdata@3f96dc61]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwithcsvcreated -->
+        <test-method status="PASS" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882]" name="closebrowser" is-config="true" duration-ms="89" started-at="2015-04-08T23:47:17Z" finished-at="2015-04-08T23:47:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testwithcsvcreated status=SUCCESS method=Registertestfact.testwithcsvcreated(org.prasanna.data.Regdata)[pri:0, instance:org.prasanna.test.Registertestfact@e41a882] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- org.prasanna.test.Registertestfact -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -5,6 +5,7 @@ package org.prasanna.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
 /**
  * This Represent the Registration page class
@@ -60,7 +61,8 @@ public class Register extends Headers {
 	public accountsucess submittheregister()
 	{
 		driver.findElement(By.name("register")).click();
-		return new accountsucess(driver);
+		//new PageFactory();
+		return PageFactory.initElements(driver, accountsucess.class);
 		
 	}
 	
